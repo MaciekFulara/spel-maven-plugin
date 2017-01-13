@@ -3,7 +3,7 @@
 
     <groupId>com.massfords</groupId>
     <artifactId>spel-maven-plugin</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1-timepot</version>
     <packaging>maven-plugin</packaging>
 
     <name>SpEL Maven Plugin</name>
@@ -30,13 +30,10 @@
     </scm>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>sparkbit-releases</id>
+            <name>Sparkbit Releases</name>
+            <url>https://nexus.sparkbit.pl/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
     <developers>
